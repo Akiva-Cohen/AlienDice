@@ -12,7 +12,7 @@ public class Run {
         use = new int[5];
         chosen = new boolean[3];
         System.out.println("Enter Number Of players");
-        numPlayers = input.nextInt();
+        numPlayers = Popup.promptNumPlayers();
         scores = new int[numPlayers];
         playRound();
     }
