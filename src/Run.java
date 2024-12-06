@@ -11,7 +11,6 @@ public class Run {
         dice = new int[5];
         use = new int[5];
         chosen = new boolean[3];
-        System.out.println("Enter Number Of players");
         numPlayers = Popup.promptNumPlayers();
         scores = new int[numPlayers];
         playRound();
@@ -32,7 +31,6 @@ public class Run {
         }
     }
     public void playTurn(int player) {
-        System.out.println("Ready Player " + (player + 1));
         for (int i = 0; i < 5; i++) {
             dice[i] = 0;
         }
