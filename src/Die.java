@@ -1,4 +1,5 @@
 import java.lang.Math.*;
+
 public class Die {
     public static int roll() {
         int out = 0;
